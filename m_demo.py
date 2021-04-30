@@ -16,7 +16,7 @@ git checkout -b 本地分支名 origin/远程分支名
 
 将本地分支推送到远程
 
-	$ git push -u origin iss20210430:origin/dev
+	$ git push -u origin iss20210430:dev
 
         git push <远程主机名> <本地分支名>:<远程分支名>
 
