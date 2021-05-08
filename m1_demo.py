@@ -13,4 +13,11 @@ git checkout iss20210430
 拉取远程仓库最新代码
 
 git pull origin master
+
+git checkout master
+
+git merge iss20210430
+
+git push origin master
+
 """
