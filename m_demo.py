@@ -15,5 +15,7 @@ Python Demo DEV
 new a tag v1
 
 git commit --amend
+
+git reset --hard 460cd86 in 20210514
 """
 
