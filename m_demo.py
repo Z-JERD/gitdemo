@@ -16,6 +16,10 @@ new a tag v1
 
 git commit --amend
 
+
 git reset --hard 460cd86 in 20210514
+merge:
+git commit 202105141500 m_demo
+
 """
 
