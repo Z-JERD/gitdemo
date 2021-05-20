@@ -56,4 +56,29 @@ def url__cinema_regulate__update_template(self, maptemplate) -> bool:
 
     return True
 
+def save_seatmap_template(self, cinema_code, map_data):
+      
+       保存影院手绘的座位图
+        状态标记已使用
+       :param cinema_code:
+       :param map_data:
+       :return:
+       pass
+def get_template_info(self, template_id, cinema_code):
+        
+        检查所选座位图模板是否存在
+        :param template_id:
+        :param cinema_code:
+        :return:
+
+        seatmap{
+            "seatmapdata":"xxx"
+            "seatnum": "xxx"
+            "seatmapmodify": "",
+            "mapsource": ""
+        }
+       
+        seat_map, map_hash = "", ""
+
+        return seat_map, map_hash
 """
