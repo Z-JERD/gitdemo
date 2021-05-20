@@ -40,4 +40,20 @@ def url__chain_regulate__seatmap_list(self, cinema_code: int, status: int = None
       response = self.ckt.get_seatmap_list(cinema_code, status)
 
        return response
+
+def url__chain_regulate__save_seatmap(self, cinema_code: int, map_info: list) -> bool:
+
+    chain_user, cinema_user = self.chain_cinema_user(cinema_code)
+
+    self.ckt.save_seatmap_template(cinema_code, map_info)
+
+    return True
+
+def url__cinema_regulate__update_template(self, maptemplate) -> bool:
+    将模板修改为使用状态
+    uid = self.session.uid
+    user, cinema_code = self.ckt.get_cinema_account(uid)
+
+    return True
+
 """
