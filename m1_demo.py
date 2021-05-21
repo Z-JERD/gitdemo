@@ -62,6 +62,9 @@ def url__cinema_regulate__update_template(self, maptemplate) -> bool:
     uid = self.session.uid
     msg += '该文件的类型无法识别'
     msg += '上传的文件未查询到,请检查文件编码'
+     y_coord, row_num = v.get("y_coord") or "", v.get("row_num") or ""
+            x_coord, column_num = v.get("x_coord") or "", v.get("column_num") or ""
+            status, group_code = v.get("status"), v.get("group_code")
 
     return True
 
