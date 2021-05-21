@@ -23,5 +23,8 @@ git commit 202105141500 m_demo
 
 update desk
 
+ assert group_code in [0, 1, 2], '坐标轴（{}，{}）座位状态有误'.format(x_coord, y_coord)
+            assert status in [1, 2, 3], '坐标轴（{}，{}）座位属性有误'.format(x_coord, y_coord)
+
 """
 
