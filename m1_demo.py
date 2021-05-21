@@ -49,10 +49,19 @@ def url__chain_regulate__save_seatmap(self, cinema_code: int, map_info: list) ->
 
     return True
 
+def load_path(file_code, catalog):
+        """通过file_code获取filepath"""
+        try:
+            file_path = hxsto.StoFile.load_from_filename(catalog, file_code).make_filepath('orignal')
+        except Exception as e:
+            file_path = None
+        return file_path
+
 def url__cinema_regulate__update_template(self, maptemplate) -> bool:
     将模板修改为使用状态
     uid = self.session.uid
-    user, cinema_code = self.ckt.get_cinema_account(uid)
+    msg += '该文件的类型无法识别'
+    msg += '上传的文件未查询到,请检查文件编码'
 
     return True
 
