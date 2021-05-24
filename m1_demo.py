@@ -41,6 +41,9 @@ def url__chain_regulate__seatmap_list(self, cinema_code: int, status: int = None
 
        return response
 
+=========================================================
+# demo
+
 def url__chain_regulate__save_seatmap(self, cinema_code: int, map_info: list) -> bool:
 
     chain_user, cinema_user = self.chain_cinema_user(cinema_code)
