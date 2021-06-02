@@ -7,6 +7,8 @@ thunder lock: disabled (you can enable it with --thunder-lock)
 
 spawned uWSGI master process 
 
+slmppath: /data/hxsto/seat_map/slmp/
+
 提交测试
 
 线上修改：
