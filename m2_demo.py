@@ -7,4 +7,4 @@ POST /cinema_regulate/get_server_models
 
 GET /cinema_regulate/get_manufactures_models
 
-Last login: Wed Jun  2 18:46:06 2021 from 10.110.30.114
+*** uWSGI is running in multiple interpreter mode ***
