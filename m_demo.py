@@ -1,6 +1,8 @@
 """
 Python Demo DEV
 
+SELECT `id`,`name`,`manufacture` FROM obj_server_models
+
 提交测试
 
 线上修改：
