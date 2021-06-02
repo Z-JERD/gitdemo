@@ -5,6 +5,8 @@ SELECT `id`,`name`,`manufacture` FROM obj_server_models
 
 thunder lock: disabled (you can enable it with --thunder-lock)
 
+spawned uWSGI master process 
+
 提交测试
 
 线上修改：
